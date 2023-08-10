@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+html{
+    font-family: 'Satisfy','Pacifico' sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight: 500;
+}
+.food img:hover{
+    transform: scale(1.05);
+    transition: all ease ;
+    border-radius: 15px;
+    box-shadow: 0 0 5px goldenrod;
+}
+.header{
+    font-size: 60px;
+    font-family: 'Pacifico';
+}
+#logo{
+    width: 450px;
+    height: 225px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.header
+.food{
+    text-align: center;
+}
+div img{
+    width: 400px;
+    height: 350px;
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    width:400px;
+    text-align: center;
+}
